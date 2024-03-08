@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  /* background-color: rgb(36, 32, 32); */
+  color: rgba(214, 211, 211, 0.975);
+  
+}
+
+
+#root {
+  /* max-width: 1280px; */
+  /* border-left: 2px solid #ffffff64;
+  border-right: 2px solid #ffffff64; */
+  height: 100vh;
+  width: 100%;
+  /* padding: 20px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* display: flex; */
+  
+}
+
+.Header-El{
+  background: #15415d1f;
+  padding: 30px;
+  border-radius: 0px 40px 0px 0px;
+  /* border-right: 1px solid #eeeeee2d; */
+}
+
+
+
+
+
+
+
+
+
+/* sections and their content */
+
+
+/* project component */
+#projectSection{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background: #fff;
+}
+
+/* testimonial component */
+#testimonialSection{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background: #fff;
+}
+
+/* contact component */
+#contactSection{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+/* footer component */
+#page-footer{
+  text-align: center;
+  font-size: 0.88em;
+  border-top: 1px solid #ccd7d4;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background:rgb(36, 32, 32);
+}
+
+
+
+
+
+
+
+
+
+
+.first-color { 
+	background: #283739; 
+}
+	
+.second-color { 
+	background: #2c5d63; 
+}
+
+.third-color { 
+	background: #a2c11c; 
+}
+
+.fourth-color { 
+	background: #e0e0e0; 
+}

@@ -1,0 +1,87 @@
+.Nav-El{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    /* border: 1px solid red; */
+}
+
+  
+.logo{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+    color:#32d1a7;
+    margin-left: 15px;
+}
+
+  
+.Nav-links{
+    /* border: 1px solid red; */
+    list-style: none;
+    height: 200px;
+  }
+  
+.Nav-links > li {
+    padding: 5px 0px;
+}
+
+.Nav-links > li a{
+    text-decoration: none;
+    color:#32d1a7;
+    padding: 5px;
+}
+
+.Nav-links > li a:hover{
+    border-left: 2px groove #32d1a7;
+    border-bottom: 2px groove #ccd7d4;
+}
+
+
+#projects-link{
+    margin-left: 30px;
+}
+#testimony-link{
+    margin-left: 90px;
+}
+#contact-link{
+    margin-left: 170px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+
+
+
+/* big tablets */
+@media screen and (max-width: 1050px) {
+
+    
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .logo{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    #projects-link{
+        margin-left: 10px;
+    }
+    #testimony-link{
+        margin-left: 40px;
+    }
+    #contact-link{
+        margin-left: 90px;
+    }
+}
+
+
+

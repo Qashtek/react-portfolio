@@ -1,0 +1,94 @@
+
+.Main-section{
+    padding: 80px 0 0 200px;
+    height: 100vh;
+    width: 100%;
+    border-radius: 5px /49px;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+
+.main-intro{
+    margin-left: 70px;
+}
+  
+.Main-section h1{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+  
+.lead{
+    font-size: 0.9em;
+    margin: 10px 0 25px;
+}
+  
+.cta-btn{
+    padding: 15px 36px;
+    font-weight: 500;
+    font-size: 0.97em;
+    background: transparent;
+    border: 2px inset #40b898b9;
+    color:  rgba(214, 211, 211, 0.975);
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background .4s ease;
+    border-radius: 5px;
+}
+  
+.cta-btn:hover{
+    background: linear-gradient(#e6e6e6b9, #066f53b9);
+    color: #eef0f3;
+    border: 2px solid #fff;
+    
+}
+
+@media screen and (max-width: 1189px) {
+    .Main-section{
+        padding: 50px 0px 0 160px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    /* .Main-section{
+        padding: 200px 100px;
+    } */
+}
+
+
+@media screen and (max-width: 780px){
+    .Main-section{
+        padding: 50px 50px 0 160px;
+    }
+
+    .main-intro{
+        margin-left: 0;
+    }
+
+    .Main-section h1{
+        font-size: 1.9rem;
+    }
+   
+}
+
+@media screen and (max-width: 550px){
+    .Main-section{
+        padding: 90px 50px 0 150px;
+    }
+
+
+    .Main-section h1{
+        font-size: 1.55rem;
+    }
+
+    .lead{
+        font-size: 0.8em;
+    }
+
+    .cta-btn{
+        padding: 10px 26px;
+        font-weight: 500;
+        font-size: 0.8em;
+       
+    }
+}
+
